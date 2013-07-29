@@ -8,6 +8,8 @@
 
 ``` js
 
+    var aspectRatios = new Aspects(['16:9', '4:3', '1:1', '2:1']);
+
     var aspect = aspectRatios.ratio(800, 600);
 
     assert.equal(aspect.actual, '4:3');
