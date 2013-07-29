@@ -1,6 +1,8 @@
 {
     "name": "aspect-ratios",
     "version": "0.0.1",
+    "description": "calculate aspect ratios",
+    "main" : "index.js",
     "devDependencies": {
         "mocha": "~1.7.4"
     },
@@ -11,6 +13,13 @@
         ],
         "harness" : "mocha",
         "files": "test/*.js"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/tomkp/aspect-ratios.git"
+    },
+    "author": {
+        "name": "tomkp"
     },
     "license": "MIT"
 }
